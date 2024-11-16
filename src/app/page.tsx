@@ -7,7 +7,7 @@ export default function HomePage() {
             <div className='w-[25vw] h-[25vw] bg-indigo-400 rounded-full'></div>
             <div className='absolute top-[5vw] w-[25vw]'>
                 <img
-                  src="@/assets/img/profile.png"
+                  src="/images/profile.png"
                   alt="Picture of the author"
                 />
             </div>
