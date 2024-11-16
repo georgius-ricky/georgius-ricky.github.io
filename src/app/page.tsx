@@ -5,10 +5,11 @@ export default function HomePage() {
           {/* Circular Background */}
           <div className="relative mr-12 md:w-2/5 flex justify-center">
             <div className='w-[25vw] h-[25vw] bg-indigo-400 rounded-full'></div>
-            <div className='absolute top-[5vw] w-[25vw]'>
+            <div className='absolute top-[5vw] w-[25vw] flex justify-center'>
                 <img
                   src="/images/profile.png"
                   alt="Picture of the author"
+                  className="w-[70%]"
                 />
             </div>
           </div>
