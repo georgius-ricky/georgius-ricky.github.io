@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
+    images: {
+      unoptimized: true, // Disable image optimization for static export
+    },
     webpack(config) {
       config.module.rules.push({
         test: /\.(ttf|otf|eot|woff|woff2)$/,

@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import profileImg from '@/assets/img/profile.png'
-
 export default function HomePage() {
   return (
     <>
@@ -9,8 +6,8 @@ export default function HomePage() {
           <div className="relative mr-12 md:w-2/5 flex justify-center">
             <div className='w-[25vw] h-[25vw] bg-indigo-400 rounded-full'></div>
             <div className='absolute top-[5vw] w-[25vw]'>
-                <Image
-                  src={profileImg}
+                <img
+                  src="@/assets/img/profile.png"
                   alt="Picture of the author"
                 />
             </div>
@@ -21,7 +18,7 @@ export default function HomePage() {
               <h1 className="text-[3.5vw] font-bold mb-2 text-gray-500 dark:text-gray-300">
                 Hello, I'm <span className='text-6xl text-indigo-900 dark:text-indigo-400 '>Ricky</span>
               </h1>
-              <h2 className="text-[3vw] text-[3.5vw] mb-4 text-indigo-500 dark:text-indigo-300  font-semibold">
+              <h2 className="text-[3.5vw] mb-4 text-indigo-500 dark:text-indigo-300  font-semibold">
                 Website Software Engineer
               </h2>
               <p className="text-gray-700 dark:text-gray-200 mb-6">
